@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="h-full w-full">
       <video
-        src="src\assets\bg.mp4"
+        src="/assets/bg.mp4"
         autoPlay
         loop
         muted
@@ -33,7 +33,7 @@ function App() {
         </div>
         <img
           className="w-24 backdrop-blur-3xl"
-          src={`./src/assets/icons/${weatherState.weather[0].icon}.png`}
+          src={`/assets/icons/${weatherState.weather[0].icon}.png`}
         ></img>
         <div className="pt-2">{`${Math.round(weatherState.main.temp)} °C`}</div>
         <div className="pt-2">
