@@ -1,4 +1,3 @@
-import "./App.css";
 import { useEffect, useState } from "react";
 import { getWeather } from "./api/getWeather";
 import Loader from "./components/Loader";
